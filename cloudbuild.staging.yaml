@@ -27,7 +27,6 @@ steps:
 substitutions:
     _FUNCTION_PROJECT : production-375909
     _FUNCTION_NAME    : function-1
-    _FUNCTION_REGION  : northamerica-northeast1
+    _FUNCTION_REGION  : us-central1
     _FUNCTION_RUNTIME : nodejs16
     _ENTRY_POINT      : helloWorld
-
