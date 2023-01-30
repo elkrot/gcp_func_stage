@@ -24,7 +24,7 @@ steps:
       - --region=$_SERVICE_REGION
       - --image=$_SERVICE_IMAGE
 
-images: # Display the image in the build results 
+images: # Display the image in the build results - Build Artifacts
 - $_SERVICE_IMAGE
 
 substitutions:
@@ -34,3 +34,4 @@ substitutions:
     _SERVICE_NAME     : my-docker-app-stage
     _DOCKER_REGISTRY  : elkrot-docker-repo
     _DOCKER_IMAGENAME : myapp-staging
+
